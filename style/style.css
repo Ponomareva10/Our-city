@@ -8,13 +8,29 @@
 }
 
 .name__anna {
+    display: inline;
+    color: black;
+}
+
+.name__anna::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
     background-color: blue;
-    color: white;
 }
 
 .name__beksultan {
+    display: inline;
+    color: black;
+}
+
+.name__beksultan::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
     background-color: #2b510b;
-    color: white;
 }
 
 .container {
