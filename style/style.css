@@ -40,3 +40,37 @@
     grid-template-columns: repeat(2 1fr);
     grid-template-rows: auto;
 }
+
+.beks-name{
+    display: inline;
+}
+.beks-name::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #2b510b;
+}
+
+.container-beksultan{
+    padding: 30px;
+    width: 250px;
+    background-color: #2b510b;
+    height: 400px;
+    grid-column: 2;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 2fr;
+}
+
+.item-beksultan{
+    background-color: cornflowerblue;
+}
+
+.item-beksultan:last-child{
+    background-color:blueviolet;
+    grid-column: 2;
+    grid-row: 4;
+    column-gap:0px;
+}
