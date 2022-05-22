@@ -1,0 +1,26 @@
+.name {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name__anna {
+    background-color: blue;
+    color: white;
+}
+
+.name__beksultan {
+    background-color: #2b510b;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: auto;
+}
