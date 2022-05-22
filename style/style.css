@@ -58,6 +58,7 @@
     background-color: #2b510b;
     height: 400px;
     grid-column: 2;
+    grid-row: 1;
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
